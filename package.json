@@ -22,7 +22,7 @@
     "copy-static-assets": "node copyStaticAssets.js"
   },
   "engines": {
-    "node": "~0.10.0 || ~6.10.0"
+    "node": "~6.0.0 || ~6.10.0"
   },
   "jest": {
     "globals": {
