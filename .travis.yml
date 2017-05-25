@@ -2,5 +2,4 @@ language: node_js
 node_js:
   - "node"
 deploy:
-  skip_cleanup: true
   provider: azure_web_apps
