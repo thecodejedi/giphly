@@ -9,9 +9,9 @@
   "author": "Markus Hoffmann",
   "license": "GPL-3.0",
   "scripts": {
-    "start": "node dist/server.js",
-    "dev" : "npm run build && npm run watch",
+    "start": "npm run build && npm run watch",
     "build": "npm run build-sass && npm run build-ts && npm run tslint && npm run copy-static-assets",
+    "serve": "node dist/server.js",
     "watch": "concurrently -k -p \"[{name}]\" -n \"Sass,TypeScript,Node\" -c \"yellow.bold,cyan.bold,green.bold\" \"npm run watch-sass\" \"npm run watch-ts\" \"nodemon dist/server.js\"",
     "test": "jest --forceExit",
     "build-ts": "tsc",
