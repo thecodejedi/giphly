@@ -70,8 +70,6 @@ app.use(session({
     autoReconnect: true
   })
 }));
-app.use(passport.initialize());
-app.use(passport.session());
 app.use(flash());
 app.use(lusca.xframe("SAMEORIGIN"));
 app.use(lusca.xssProtection(true));
