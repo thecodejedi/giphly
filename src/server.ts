@@ -85,6 +85,7 @@ app.post("/contact", contactController.postContact);
  * API examples routes.
  */
 app.get("/api", apiController.getApi);
+app.get("/api/nouns", apiController.getNouns);
 
 /**
  * Error Handler. Provides full stack - remove for production

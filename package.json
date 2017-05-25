@@ -59,8 +59,7 @@
     "morgan": "^1.7.0",
     "nodemailer": "^2.6.4",
     "pug": "^2.0.0-beta6",
-    "request": "^2.78.0",
-    "web-request": "^1.0.7"
+    "request": "^2.78.0"
   },
   "devDependencies": {
     "@types/async": "^2.0.40",
