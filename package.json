@@ -9,7 +9,7 @@
   "author": "Markus Hoffmann",
   "license": "GPL-3.0",
   "scripts": {
-    "start": "node dist/server.js",
+    "start": "npm run build && node dist/server.js",
     "build": "npm run build-sass && npm run build-ts && npm run tslint && npm run copy-static-assets",
     "dev": "npm run build && npm run watch",
     "watch": "concurrently -k -p \"[{name}]\" -n \"Sass,TypeScript,Node\" -c \"yellow.bold,cyan.bold,green.bold\" \"npm run watch-sass\" \"npm run watch-ts\" \"nodemon dist/server.js\"",
