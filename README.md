@@ -1,7 +1,7 @@
 Giphly
 =======================
 
-[![Dependency Status](https://david-dm.org/thecodejedi/giphly.svg)](https://david-dm.org/thecodejedi/giphly) [![Build Status](https://travis-ci.org/Microsoft/thecodejedi/giphly.svg?branch=master)](https://travis-ci.org/Microsoft/thecodejedi/giphly) 
+[![Dependency Status](https://david-dm.org/thecodejedi/giphly.svg)](https://david-dm.org/thecodejedi/giphly) [![Build Status](https://travis-ci.org/thecodejedi/giphly.svg?branch=master)](https://travis-ci.org/Microsoft/thecodejedi/giphly) 
 
 # Pre-reqs
 - Install [Node.js](https://nodejs.org/en/)
