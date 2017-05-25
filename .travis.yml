@@ -1,5 +1,12 @@
 language: node_js
 node_js:
   - "node"
-deploy:
-  provider: azure_web_apps
+jobs:
+  include:
+    - stage: build
+      script: npm build
+    - stage: test
+      script: npm test
+    - stage: deploy
+      deploy:
+        provider: azure_web_apps
