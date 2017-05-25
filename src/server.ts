@@ -13,7 +13,6 @@ import * as mongo from "connect-mongo"; // (session)
 import * as flash from "express-flash";
 import * as path from "path";
 import * as mongoose from "mongoose";
-import * as passport from "passport";
 import expressValidator = require("express-validator");
 
 
@@ -32,11 +31,6 @@ import * as homeController from "./controllers/home";
 import * as userController from "./controllers/user";
 import * as apiController from "./controllers/api";
 import * as contactController from "./controllers/contact";
-
-/**
- * API keys and Passport configuration.
- */
-import * as passportConfig from "./config/passport";
 
 /**
  * Create Express server.
