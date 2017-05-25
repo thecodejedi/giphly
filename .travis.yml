@@ -3,10 +3,8 @@ node_js:
   - "node"
 jobs:
   include:
-   - stage: build
-     script: npm run build
    - stage: test
-     script: npm run testtest
+     script: npm run test
     - stage: deploy
       deploy:
         provider: azure_web_apps
