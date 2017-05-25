@@ -21,6 +21,9 @@
     "tslint": "tslint -c tslint.json -p tsconfig.json",
     "copy-static-assets": "node copyStaticAssets.js"
   },
+  "engines": {
+    "node": "~0.10.0 || ~4.2.0"
+  },
   "jest": {
     "globals": {
       "__TS_CONFIG__": "tsconfig.json"
